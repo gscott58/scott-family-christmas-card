@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>2022 Christmas Greeting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Season's Greeting">
+    <meta name="keywords" content="Christmas, XMAS, Season's, Greetings">
+   <!-- reference to jQuery Library and jQuery UI -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <!-- reference to the jQuery Cycle 2 plugin-->
+    <script src="jquery/cycle2.js"></script>
+    <script src="jquery/cycle2-flip.js"></script>
+    <script src="jquery/cycle2-shuffle.js"></script>
+    <!-- reference to the jQuery Cycle 2 plugin-->
+    <!-- Google Fonts Dancing Script-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sansita&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts Dancing Script-->
+    <link rel="stylesheet" href="css/styles.css">
+    <style></style>
+</head>
+
+<body>
+    <div id="page">
+        <div class="adv-custom-caption" ><h1>Season's Greetings . . .</h1></div>
+        
+        <div class="cycle-slideshow"
+	        data-cycle-fx="shuffle"
+		    data-cycle-timeout="6000"
+            data-cycle-speed="6000"
+		    data-cycle-caption=".adv-custom-caption"
+		    data-cycle-caption-template="{{cycleTitle}}">
+            <img src="img/01-2008-christmas-party.jpg" alt="" data-cycle-title="<h1>A Special Holiday Wish . . .</h1>">
+            <img src="img/03-2008-las-vegas.jpg" alt="" data-cycle-title="<h1>From . . .</h1>">
+            <img src="img/02-2009-christmas-collage.jpg" alt="" data-cycle-title="<h1>Merry Christmas . . .</h1>">
+            <!-- empty element for caption -->
+            <div class="adv-custom-caption" ><h1>Season's Greetings . . .</h1></div>	
+        </div>      
+
+        <footer>    
+            <div>
+                <div><p id="contact-name"><strong>Life Story Creations</strong></p></div>          
+                <div><p id="contact-email"><strong>gregscott618904@gmail.com</strong></p></div>
+                <div><p id="copyright-1"></p></div>
+                <div><p id="copyright-2"><strong>All Rights Reserved</strong></p></div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
