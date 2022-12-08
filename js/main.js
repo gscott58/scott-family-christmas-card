@@ -2,19 +2,10 @@
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     document.getElementById("copyright-1").innerHTML = "<strong>&copy; Copyright " + d.getFullYear() + "</strong>";
     
-    function lock (orientation) {
-        // (A1) GO INTO FULL SCREEN FIRST
-        let de = document.documentElement;
-        if (de.requestFullscreen) { de.requestFullscreen(); }
-        else if (de.mozRequestFullScreen) { de.mozRequestFullScreen(); }
-        else if (de.webkitRequestFullscreen) { de.webkitRequestFullscreen(); }
-        else if (de.msRequestFullscreen) { de.msRequestFullscreen(); }
-    // (A2) THEN LOCK ORIENTATION
-        screen.orientation.lock(orientation);
-    }
-    
     $(document).ready(function() {
-        lock('landscape');
+
+        console.log (screen.orientation);
+
         $("#title").toggle(2000);
         $(".adv-custom-caption").toggle(2000);
         $("#contact-name").toggle(1500);
