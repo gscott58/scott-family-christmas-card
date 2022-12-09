@@ -3,8 +3,6 @@
     document.getElementById("copyright-1").innerHTML = "<strong>&copy; Copyright " + d.getFullYear() + "</strong>";
     
     $(document).ready(function() {
-        screen.orientation.lock("landscape-primary");
-        console.log (screen.orientation);
 
         $("#title").toggle(2000);
         $(".adv-custom-caption").toggle(2000);

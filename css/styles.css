@@ -14,7 +14,7 @@ h1
  {
     background-color: #990000;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     color:         #ffffff;
     margin: 5px auto;
     padding: 2.5px;
@@ -87,3 +87,9 @@ img {
 {
     background-color: 	#ffffff;
 }
+@media only screen and (orientation:portrait) {
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  }
