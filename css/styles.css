@@ -3,10 +3,10 @@
 
 #page {
     aspect-ratio: 16/9;
-    width: 100%;
+    width: 95% auto;
     height: auto;
 	font-family: Arial, Helvetica, sans-serif;
-	max-width: 90%;
+	max-width: 95%;
     background-color: rgba(0, 170, 0, 0.7);
 	margin: 30px auto;
     padding: 15px;
@@ -28,6 +28,9 @@ h1
 }
 
 img {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
     width: 100%;
     height: auto;
     margin: 5px auto;
