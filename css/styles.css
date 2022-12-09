@@ -90,6 +90,7 @@ img {
 @media only screen and (orientation:portrait) {
     body {
       height: 100vw;
+      width: 500px;
       transform: rotate(90deg);
     }
   }
