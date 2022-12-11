@@ -2,10 +2,7 @@
 }
 
 #page {
-
-    width: 50% auto;
-    max-width: 700px;
-    height: auto;
+    width: 65%;
 	font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 170, 0, 0.7);
 	margin: 30px auto;
@@ -28,9 +25,7 @@ h1
 }
 
 img {
-    aspect-ratio: 3/2;
-    width: 100%;
-    height: auto;
+    aspect-ratio: 3/4;
     width: 100%;
     height: auto;
     margin: 5px auto;
